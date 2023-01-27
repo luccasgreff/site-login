@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    body {
+        background: #262626 url(../imagens/building-p.jpg) no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    #login {
+        width: 80vw;
+        height: 43vh;
+    }
+
+    #imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+        background-position: center center;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 8px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 8px;
+    }
+
+    #formulario {
+        float: right;
+        width: 70%;
+    }
+
+    form input, div#botoes a {
+        font-size: 1.2em;
+        height: 35px;
+    }
+
+    .material-icons {
+        height: 35px;
+        padding-top: 9px;
+        top: 5px;
+        border-radius: 8px;
+    }
+
+    div.campo {
+        position: relative;
+        left: 33px;
+    }
+
+    div#botoes a {
+        height: 10px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background: #262626 url(../imagens/building-g.jpg) no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    #login {
+        width: 992px;
+    }
+
+    #imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+    }
+
+    #formulario {
+        float: left;
+        width: 50%;
+        font-size: 1.2em;
+    }
+
+    div.campo {
+        position: relative;
+        left: 26px;
+    }
+
+    form input, div#botoes a {
+        font-size: 1.0em;
+    }
+
+    div#botoes a {
+        padding-top: 6px;
+        padding-bottom: 17px;
+
+    }
+
+
+}

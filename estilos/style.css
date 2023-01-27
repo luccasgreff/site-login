@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #262626;
+}
+
+#login {
+    margin: auto;
+    background-color: white ;
+    width: 260px;
+    height: 460px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    transition: width 0.8s, height 0.8s;
+    transition-timing-function: ease;
+
+}
+
+#imagem {
+    display: block;
+    background-image: url(../imagens/building-p.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#formulario {
+    display: block;
+    font-size: 0.8em;
+}
+
+#formulario h1 {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    margin-top: 8px ;
+    text-align: center;
+}
+
+#formulario p {
+    margin: 2px;
+    text-align: center;
+}
+
+
+form input {
+    display: inline-block;
+    background-color: #A6A6A6;
+    border-radius: 5px;
+    border-color: #262626;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.319);
+    width: 77%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 2px;
+}
+
+
+.material-icons {
+    display: inline-block;
+    background-color: #262626;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+    top: 8px;
+    left: 2px;
+}
+
+
+div#botoes {
+    text-align: center;
+}
+
+form input[type=submit]:hover, div#botoes a:hover {
+    background-color: #262626;
+    color: white;
+    cursor: pointer;
+}
+
+
+div#botoes a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background-color: #A6A6A6;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.319);
+    border-radius: 5px;
+    border: 2px solid #262626;
+    width: 77%;
+    margin: auto;
+    margin-top: 2px;
+    padding: 2px;
+}
+
+
+
+
+
+
+
