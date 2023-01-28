@@ -6,5 +6,8 @@ Este é um projeto feito utilizando HTML e CSS, e, trata-se de uma tela de login
 ## Objetivo
 Colocar em prática o conhecimento de HTML e CSS, com enfâse em inputs e Media Queries.
 
+### Link
+O link do site encontra-se aqui: https://luccasgreff.github.io/site-login/
+
 
  
